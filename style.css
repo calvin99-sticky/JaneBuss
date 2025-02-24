@@ -1,0 +1,117 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Text-align: center;
+    Background: linear-gradient(to right, #6a11cb, #2575fc);
+    Color: white;
+}
+
+Header {
+    Background-color: rgba(0, 0, 0, 0.8);
+    Color: white;
+    Padding: 20px;
+    Position: fixed;
+    Width: 100%;
+    Top: 0;
+    Left: 0;
+    z-index: 1000;
+}
+
+Nav ul {
+    List-style: none;
+    Padding: 0;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin: 0 15px;
+}
+
+Nav a {
+    Color: white;
+    Text-decoration: none;
+    Font-weight: bold;
+    Transition: color 0.3s;
+}
+
+Nav a:hover {
+    Color: #ffdd57;
+}
+
+.hero {
+    Padding: 100px 20px;
+    Background: url(‘images/hero-bg.jpg’) no-repeat center center/cover;
+    Text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+    Display: inline-block;
+    Padding: 10px 20px;
+    Background: #ffdd57;
+    Color: black;
+    Text-decoration: none;
+    Border-radius: 5px;
+    Transition: background 0.3s;
+}
+
+.btn:hover {
+    Background: #f4c430;
+}
+
+Section {
+    Padding: 60px 20px;
+}
+
+.service {
+    Margin: 20px;
+    Display: inline-block;
+    Background: rgba(255, 255, 255, 0.2);
+    Padding: 20px;
+    Border-radius: 10px;
+    Transition: transform 0.3s;
+}
+
+.service:hover {
+    Transform: scale(1.05);
+}
+
+Form input, form textarea, form button {
+    Display: block;
+    Width: 80%;
+    Margin: 10px auto;
+    Padding: 10px;
+    Border-radius: 5px;
+    Border: none;
+}
+
+Form button {
+    Background: #ffdd57;
+    Cursor: pointer;
+    Transition: background 0.3s;
+}
+
+Form button:hover {
+    Background: #f4c430;
+}
+
+Footer {
+    Background-color: rgba(0, 0, 0, 0.8);
+    Color: white;
+    Padding: 10px;
+    Position: fixed;
+    Width: 100%;
+    Bottom: 0;
+}
+
+.social-icons img {
+    Width: 30px;
+    Margin: 5px;
+    Transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    Transform: scale(1.2);
+}
+
+
